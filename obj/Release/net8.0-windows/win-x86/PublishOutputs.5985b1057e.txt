@@ -1,0 +1,2 @@
+E:\Customer_handover_tool\CheckUID\bin\Release\net8.0-windows\publish\win-x86\CheckUID.pdb
+E:\Customer_handover_tool\CheckUID\bin\Release\net8.0-windows\publish\win-x86\CheckUID.exe

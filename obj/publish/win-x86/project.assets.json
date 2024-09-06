@@ -1,0 +1,493 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "FSharp.Core/8.0.300": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/8.0.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Resharp/0.1.25": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "8.0.300"
+        },
+        "compile": {
+          "lib/net8.0/FParsec.dll": {},
+          "lib/net8.0/FParsecCS.dll": {},
+          "lib/net8.0/Resharp.Parser.dll": {},
+          "lib/net8.0/Resharp.Runtime.dll": {},
+          "lib/net8.0/Resharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FParsec.dll": {},
+          "lib/net8.0/FParsecCS.dll": {},
+          "lib/net8.0/Resharp.Parser.dll": {},
+          "lib/net8.0/Resharp.Runtime.dll": {},
+          "lib/net8.0/Resharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net8.0/LICENSE": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net8.0/README.md": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "RestSharp/111.3.1-alpha.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    "net8.0-windows7.0/win-x86": {
+      "FSharp.Core/8.0.300": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FSharp.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.1/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.1/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.1/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.1/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.1/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.NET.ILLink.Tasks/8.0.3": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Resharp/0.1.25": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "8.0.300"
+        },
+        "compile": {
+          "lib/net8.0/FParsec.dll": {},
+          "lib/net8.0/FParsecCS.dll": {},
+          "lib/net8.0/Resharp.Parser.dll": {},
+          "lib/net8.0/Resharp.Runtime.dll": {},
+          "lib/net8.0/Resharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FParsec.dll": {},
+          "lib/net8.0/FParsecCS.dll": {},
+          "lib/net8.0/Resharp.Parser.dll": {},
+          "lib/net8.0/Resharp.Runtime.dll": {},
+          "lib/net8.0/Resharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net8.0/LICENSE": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          },
+          "contentFiles/any/net8.0/README.md": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "RestSharp/111.3.1-alpha.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FSharp.Core/8.0.300": {
+      "sha512": "Jv44fV7TNglyMku89lQcA4Q6mFKLyHb2bs1Yb72nvSVc+cHplEnoZ4XQUaaTLJGUTx/iMqcrkYGtaLzkkIhpaA==",
+      "type": "package",
+      "path": "fsharp.core/8.0.300",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "fsharp.core.8.0.300.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/FSharp.Core.dll",
+        "lib/netstandard2.1/FSharp.Core.xml",
+        "lib/netstandard2.1/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.1/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "Microsoft.NET.ILLink.Tasks/8.0.3": {
+      "sha512": "0kwNg0LBIvVTx9A2mo9Mnw4wLGtaeQgjSz5P13bOOwdWPPLe9HzI+XTkwiMhS7iQCM6X4LAbFR76xScaMw0MrA==",
+      "type": "package",
+      "path": "microsoft.net.illink.tasks/8.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "Sdk/Sdk.props",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/ILLink.CodeFixProvider.dll",
+        "analyzers/dotnet/cs/ILLink.RoslynAnalyzer.dll",
+        "build/Microsoft.NET.ILLink.Analyzers.props",
+        "build/Microsoft.NET.ILLink.Tasks.props",
+        "build/Microsoft.NET.ILLink.targets",
+        "microsoft.net.illink.tasks.8.0.3.nupkg.sha512",
+        "microsoft.net.illink.tasks.nuspec",
+        "tools/net472/ILLink.Tasks.dll",
+        "tools/net472/ILLink.Tasks.dll.config",
+        "tools/net472/Mono.Cecil.Mdb.dll",
+        "tools/net472/Mono.Cecil.Pdb.dll",
+        "tools/net472/Mono.Cecil.Rocks.dll",
+        "tools/net472/Mono.Cecil.dll",
+        "tools/net472/Sdk/Sdk.props",
+        "tools/net472/System.Buffers.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net472/build/Microsoft.NET.ILLink.targets",
+        "tools/net8.0/ILLink.Tasks.deps.json",
+        "tools/net8.0/ILLink.Tasks.dll",
+        "tools/net8.0/Mono.Cecil.Mdb.dll",
+        "tools/net8.0/Mono.Cecil.Pdb.dll",
+        "tools/net8.0/Mono.Cecil.Rocks.dll",
+        "tools/net8.0/Mono.Cecil.dll",
+        "tools/net8.0/Sdk/Sdk.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net8.0/build/Microsoft.NET.ILLink.targets",
+        "tools/net8.0/illink.deps.json",
+        "tools/net8.0/illink.dll",
+        "tools/net8.0/illink.runtimeconfig.json",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Resharp/0.1.25": {
+      "sha512": "bO9v2oIhQsv2KMF2ubHrRJgFU79e1c+RomTi4vrPyXv1jaM0HZPdRjUax4DzVm5e8792SmSZnnfOYBYLIcNZwQ==",
+      "type": "package",
+      "path": "resharp/0.1.25",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/LICENSE",
+        "content/README.md",
+        "contentFiles/any/net8.0/LICENSE",
+        "contentFiles/any/net8.0/README.md",
+        "contentFiles/any/net9.0/LICENSE",
+        "contentFiles/any/net9.0/README.md",
+        "lib/net8.0/FParsec.dll",
+        "lib/net8.0/FParsecCS.dll",
+        "lib/net8.0/Resharp.Parser.dll",
+        "lib/net8.0/Resharp.Runtime.dll",
+        "lib/net8.0/Resharp.dll",
+        "lib/net8.0/Resharp.xml",
+        "lib/net9.0/FParsec.dll",
+        "lib/net9.0/FParsecCS.dll",
+        "lib/net9.0/Resharp.Parser.dll",
+        "lib/net9.0/Resharp.Runtime.dll",
+        "lib/net9.0/Resharp.dll",
+        "lib/net9.0/Resharp.xml",
+        "resharp.0.1.25.nupkg.sha512",
+        "resharp.nuspec"
+      ]
+    },
+    "RestSharp/111.3.1-alpha.0.6": {
+      "sha512": "DbGP6UzSxJIFGdfUTep3luPncqWdr5I7652CCWLAo7X3z0ja1Fyo9SDpGIxx6Rm7IpKE0LRXa4Ux5RP2Nq73Uw==",
+      "type": "package",
+      "path": "restsharp/111.3.1-alpha.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net471/RestSharp.dll",
+        "lib/net471/RestSharp.xml",
+        "lib/net48/RestSharp.dll",
+        "lib/net48/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/net7.0/RestSharp.dll",
+        "lib/net7.0/RestSharp.xml",
+        "lib/net8.0/RestSharp.dll",
+        "lib/net8.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.111.3.1-alpha.0.6.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Microsoft.NET.ILLink.Tasks >= 8.0.3",
+      "Resharp >= 0.1.25",
+      "RestSharp >= 111.3.1-alpha.0.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Customer_handover_tool\\CheckUID\\CheckUID.csproj",
+      "projectName": "CheckUID",
+      "projectPath": "E:\\Customer_handover_tool\\CheckUID\\CheckUID.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "E:\\Customer_handover_tool\\CheckUID\\obj\\publish\\win-x86\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Microsoft.NET.ILLink.Tasks": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[8.0.3, )",
+            "autoReferenced": true
+          },
+          "Resharp": {
+            "target": "Package",
+            "version": "[0.1.25, )"
+          },
+          "RestSharp": {
+            "target": "Package",
+            "version": "[111.3.1-alpha.0.6, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+            "version": "[8.0.3, 8.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+            "version": "[8.0.3, 8.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x86",
+            "version": "[8.0.3, 8.0.3]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
+            "version": "[8.0.3, 8.0.3]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

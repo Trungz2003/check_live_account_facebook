@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "VuNOdVF9f9ZdwGALeEXWejXwsc6Js3Tw4+bz6QevVrwadiarHJBrIP2jrLzCQeyVJqf7cvogIF+r++fxjGsU5g==",
+  "success": true,
+  "projectFilePath": "E:\\DiverseCode\\git\\CheckUID\\CheckUID.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\fsharp.core\\8.0.300\\fsharp.core.8.0.300.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\resharp\\0.1.25\\resharp.0.1.25.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\restsharp\\111.3.1-alpha.0.6\\restsharp.111.3.1-alpha.0.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'RestSharp' 111.3.1-alpha.0.6 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4rr6-2v9v-wcpc",
+      "libraryId": "RestSharp",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}
